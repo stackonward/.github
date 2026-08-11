@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">远栈远迹精修标志</title>
+  <desc id="desc">单色起点、两层技术栈和一条基于辶意象的连续远行路径。</desc>
+  <g fill="#111214">
+    <circle cx="116" cy="126" r="20"/>
+    <path d="M131 138l19 12" fill="none" stroke="#111214" stroke-width="14" stroke-linecap="round"/>
+    <path d="M176 108h218l-42 56H134z"/>
+    <path d="M164 202h218l-42 56H122z"/>
+    <path d="M132 246v68c0 60 35 90 98 90h130" fill="none" stroke="#111214" stroke-width="50" stroke-linecap="butt" stroke-linejoin="round"/>
+    <path d="M348 379h68l-42 50h-68z"/>
+  </g>
+</svg>

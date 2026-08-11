@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">远栈公开能力与内容体系</title>
+  <desc id="desc">非对称栅格展示产品工程、商业系统、交付运维、开源工具和技术内容。</desc>
+  <style>
+    .canvas { fill: #F7F4ED; stroke: #E2DED5; }
+    .surface { fill: #FCFCFA; stroke: #DDD9D0; }
+    .surface-coral { fill: #FBEDE9; stroke: #EBC7BE; }
+    .surface-blue { fill: #EDF2FA; stroke: #C9D6EA; }
+    .ink { fill: #111214; }
+    .text { fill: #303238; }
+    .muted { fill: #72767D; }
+    .faint { fill: #A3A5AA; }
+    .line { stroke: #D8D4CB; }
+    .route { stroke: #C7D4E8; }
+    .coral { fill: #D9786F; }
+    .blue { fill: #3657B3; }
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .kicker { font-size: 14px; font-weight: 700; letter-spacing: 2px; }
+    .heading { font-size: 30px; font-weight: 700; }
+    .card-title { font-size: 25px; font-weight: 700; }
+    .card-body { font-size: 16px; font-weight: 450; }
+    .meta { font-size: 13px; font-weight: 650; letter-spacing: 1.2px; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #0B0C0E; stroke: #272A30; }
+      .surface { fill: #111316; stroke: #2B2E34; }
+      .surface-coral { fill: #201513; stroke: #53312B; }
+      .surface-blue { fill: #111827; stroke: #263A60; }
+      .ink { fill: #F2F2EF; }
+      .text { fill: #D5D7DC; }
+      .muted { fill: #999DA5; }
+      .faint { fill: #666B73; }
+      .line { stroke: #30333A; }
+      .route { stroke: #2B3C5C; }
+      .coral { fill: #EE8A80; }
+      .blue { fill: #8AA2FF; }
+    }
+  </style>
+
+  <rect class="canvas" x="1" y="1" width="1198" height="678" rx="28" />
+
+  <text class="meta coral" x="48" y="52">STACKONWARD / PUBLIC SYSTEM MAP</text>
+  <text class="heading ink" x="48" y="90">产品、系统与内容</text>
+  <text class="card-body muted" x="1152" y="86" text-anchor="end">GLOBAL SOFTWARE PRACTICE</text>
+
+  <path class="route" d="M68 346 C260 270 420 450 610 344 S928 240 1132 318" fill="none" stroke-width="2" stroke-dasharray="4 9" />
+  <circle class="blue" cx="68" cy="346" r="5" />
+  <circle class="coral" cx="610" cy="344" r="5" />
+  <circle class="blue" cx="1132" cy="318" r="5" />
+
+  <path class="surface" d="M48 122 H684 L722 160 V350 H48 Z" />
+  <text class="meta blue" x="76" y="158">01 / PRODUCT ENGINEERING</text>
+  <text class="card-title ink" x="76" y="202">产品工程</text>
+  <text class="card-body text" x="76" y="238">产品设计 · AI · 前端 · 后端 · 数据与架构</text>
+  <line class="line" x1="76" y1="274" x2="670" y2="274" stroke-width="1" />
+  <text class="meta muted" x="76" y="310">DESIGN</text>
+  <text class="meta muted" x="220" y="310">BUILD</text>
+  <text class="meta muted" x="350" y="310">VERIFY</text>
+  <text class="meta muted" x="494" y="310">DELIVER</text>
+  <circle class="coral" cx="76" cy="329" r="5" />
+  <line class="line" x1="81" y1="329" x2="620" y2="329" stroke-width="2" />
+  <circle class="blue" cx="620" cy="329" r="5" />
+
+  <rect class="surface-coral" x="742" y="122" width="410" height="106" rx="18" />
+  <text class="meta coral" x="770" y="156">02 / COMMERCE</text>
+  <text class="card-title ink" x="770" y="191">商业系统</text>
+  <text class="card-body text" x="1124" y="191" text-anchor="end">目录 · 定价 · 订单 · 支付 · 订阅</text>
+
+  <rect class="surface-blue" x="742" y="244" width="410" height="106" rx="18" />
+  <text class="meta blue" x="770" y="278">03 / DELIVERY &amp; OPERATIONS</text>
+  <text class="card-title ink" x="770" y="313">交付运维</text>
+  <text class="card-body text" x="1124" y="313" text-anchor="end">云基础设施 · CI/CD · 可观测 · 安全</text>
+
+  <path class="surface-blue" d="M48 374 H424 L452 402 V558 H48 Z" />
+  <text class="meta blue" x="76" y="410">04 / OPEN SOURCE</text>
+  <text class="card-title ink" x="76" y="448">开源工具</text>
+  <text class="card-body text" x="76" y="484">开发工具 · 自动化 · 脚本与模板</text>
+  <text class="meta muted" x="76" y="530">CURRENT / FIGMA CONTEXT MCP</text>
+
+  <rect class="surface" x="472" y="374" width="680" height="184" rx="18" />
+  <text class="meta coral" x="500" y="410">05 / TECHNICAL PUBLISHING</text>
+  <text class="card-title ink" x="500" y="448">技术内容</text>
+  <text class="card-body text" x="500" y="484">教程 · 设计决策 · 测评对比 · 故障复盘 · 公开资源</text>
+  <line class="line" x1="500" y1="515" x2="1124" y2="515" stroke-width="1" />
+  <text class="meta muted" x="500" y="540">WEBSITE</text>
+  <text class="meta muted" x="688" y="540">ARTICLES</text>
+  <text class="meta muted" x="864" y="540">RESOURCES</text>
+  <text class="meta muted" x="1040" y="540">MEDIA</text>
+
+  <line class="line" x1="48" y1="600" x2="1152" y2="600" stroke-width="1" />
+  <text class="meta faint" x="48" y="634">STACKONWARD.COM</text>
+  <text class="meta muted" x="600" y="634" text-anchor="middle">PUBLIC WORK · VERIFIED CONTENT · REUSABLE ASSETS</text>
+  <text class="meta faint" x="1152" y="634" text-anchor="end">SHENZHEN</text>
+</svg>
