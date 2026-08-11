@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">远栈公开入口</title>
+  <desc id="desc">网站、GitHub、npm、维护者和联系邮箱组成的非对称入口地图。</desc>
+  <style>
+    .canvas { fill: #F7F4ED; stroke: #E2DED5; }
+    .surface { fill: #FCFCFA; stroke: #DDD9D0; }
+    .surface-blue { fill: #EDF2FA; stroke: #C9D6EA; }
+    .surface-coral { fill: #FBEDE9; stroke: #EBC7BE; }
+    .ink { fill: #111214; }
+    .muted { fill: #72767D; }
+    .coral { fill: #D9786F; }
+    .blue { fill: #3657B3; }
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .kicker { font-size: 13px; font-weight: 700; letter-spacing: 1.8px; }
+    .title { font-size: 25px; font-weight: 700; }
+    .meta { font-size: 14px; font-weight: 500; }
+    @media (prefers-color-scheme: dark) {
+      .canvas { fill: #0B0C0E; stroke: #272A30; }
+      .surface { fill: #111316; stroke: #2B2E34; }
+      .surface-blue { fill: #111827; stroke: #263A60; }
+      .surface-coral { fill: #201513; stroke: #53312B; }
+      .ink { fill: #F2F2EF; }
+      .muted { fill: #999DA5; }
+      .coral { fill: #EE8A80; }
+      .blue { fill: #8AA2FF; }
+    }
+  </style>
+
+  <rect class="canvas" x="1" y="1" width="1198" height="298" rx="24" />
+  <text class="kicker coral" x="40" y="34">STACKONWARD / PUBLIC LINKS</text>
+
+  <path class="surface" d="M40 52 H720 L744 76 V146 H40 Z" />
+  <text class="kicker blue" x="64" y="82">WEBSITE</text>
+  <text class="title ink" x="64" y="115">stackonward.com</text>
+  <text class="meta muted" x="700" y="115" text-anchor="end">文章 · 专题 · 资源</text>
+
+  <rect class="surface-blue" x="764" y="52" width="396" height="94" rx="16" />
+  <text class="kicker blue" x="788" y="82">GITHUB</text>
+  <text class="title ink" x="788" y="115">@stackonward</text>
+  <circle class="blue" cx="1130" cy="103" r="7" />
+
+  <rect class="surface-coral" x="40" y="166" width="306" height="94" rx="16" />
+  <text class="kicker coral" x="64" y="196">NPM</text>
+  <text class="title ink" x="64" y="229">@stackonward</text>
+
+  <rect class="surface-blue" x="366" y="166" width="326" height="94" rx="16" />
+  <text class="kicker blue" x="390" y="196">MAINTAINER</text>
+  <text class="title ink" x="390" y="229">@1yhy</text>
+
+  <path class="surface" d="M712 166 H1136 L1160 190 V260 H712 Z" />
+  <text class="kicker coral" x="736" y="196">CONTACT</text>
+  <text class="title ink" x="736" y="229">yhy20010203@gmail.com</text>
+</svg>

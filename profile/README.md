@@ -53,37 +53,21 @@
 
 ## 公开入口
 
-<table width="100%">
-  <tr>
-    <td colspan="4" width="66.67%">
-      <sub>WEBSITE</sub><br />
-      <strong><a href="https://stackonward.com/">stackonward.com</a></strong><br />
-      文章、专题与公开资源
-    </td>
-    <td colspan="2" width="33.33%">
-      <sub>GITHUB</sub><br />
-      <strong><a href="https://github.com/stackonward">@stackonward</a></strong><br />
-      开源项目与公共仓库
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" width="33.33%">
-      <sub>NPM</sub><br />
-      <strong><a href="https://www.npmjs.com/org/stackonward">@stackonward</a></strong><br />
-      组织与软件包
-    </td>
-    <td colspan="2" width="33.33%">
-      <sub>MAINTAINER</sub><br />
-      <strong><a href="https://github.com/1yhy">@1yhy</a></strong><br />
-      项目维护与技术合作
-    </td>
-    <td colspan="2" width="33.33%">
-      <sub>CONTACT</sub><br />
-      <strong><a href="mailto:yhy20010203@gmail.com">yhy20010203@gmail.com</a></strong><br />
-      合作、开发与技术咨询
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/public-entry-map.svg" width="100%" alt="远栈公开入口：网站、GitHub、npm、维护者和联系邮箱" />
+</p>
+
+<p align="center">
+  <a href="https://stackonward.com/">Website</a>
+  ·
+  <a href="https://github.com/stackonward">GitHub</a>
+  ·
+  <a href="https://www.npmjs.com/org/stackonward">npm</a>
+  ·
+  <a href="https://github.com/1yhy">Maintainer</a>
+  ·
+  <a href="mailto:yhy20010203@gmail.com">Contact</a>
+</p>
 
 <p align="center">
   <img src="./assets/mark.svg" width="52" alt="StackOnward mark" />
