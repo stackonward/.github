@@ -12,6 +12,7 @@
   <a href="https://stackonward.com/"><img src="https://img.shields.io/badge/Website-stackonward.com-111214?style=flat-square" alt="StackOnward website" /></a>
   <a href="https://stackonward.com/posts/"><img src="https://img.shields.io/badge/Articles-技术文章-3657B3?style=flat-square" alt="StackOnward articles" /></a>
   <a href="https://github.com/stackonward"><img src="https://img.shields.io/badge/GitHub-StackOnward-D9786F?style=flat-square&logo=github&logoColor=white" alt="StackOnward on GitHub" /></a>
+  <a href="https://www.npmjs.com/org/stackonward"><img src="https://img.shields.io/badge/npm-@stackonward-CB3837?style=flat-square&logo=npm&logoColor=white" alt="StackOnward on npm" /></a>
   <a href="mailto:yhy20010203@gmail.com"><img src="https://img.shields.io/badge/Contact-yhy20010203%40gmail.com-303238?style=flat-square&logo=gmail&logoColor=white" alt="Contact StackOnward" /></a>
 </p>
 
@@ -52,26 +53,31 @@
 
 ## 公开入口
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%">
+    <td colspan="4" width="66.67%">
       <sub>WEBSITE</sub><br />
       <strong><a href="https://stackonward.com/">stackonward.com</a></strong><br />
       文章、专题与公开资源
     </td>
-    <td width="50%">
+    <td colspan="2" width="33.33%">
       <sub>GITHUB</sub><br />
       <strong><a href="https://github.com/stackonward">@stackonward</a></strong><br />
       开源项目与公共仓库
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td colspan="2" width="33.33%">
+      <sub>NPM</sub><br />
+      <strong><a href="https://www.npmjs.com/org/stackonward">@stackonward</a></strong><br />
+      组织与软件包
+    </td>
+    <td colspan="2" width="33.33%">
       <sub>MAINTAINER</sub><br />
       <strong><a href="https://github.com/1yhy">@1yhy</a></strong><br />
       项目维护与技术合作
     </td>
-    <td width="50%">
+    <td colspan="2" width="33.33%">
       <sub>CONTACT</sub><br />
       <strong><a href="mailto:yhy20010203@gmail.com">yhy20010203@gmail.com</a></strong><br />
       合作、开发与技术咨询
